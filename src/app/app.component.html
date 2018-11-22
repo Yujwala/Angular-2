@@ -1,0 +1,11 @@
+<!--The whole content below can be removed with the new code.-->
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand">{{title}}</a>
+<ul class="nav nav-pills">
+  <li style="padding-right:20px"><a [routerLink]="['/welcome']">Home</a></li>
+  <li><a [routerLink]="['/products']">Product List</a></li>
+</ul>
+</nav>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
